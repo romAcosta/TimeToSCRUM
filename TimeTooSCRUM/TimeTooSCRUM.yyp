@@ -15,6 +15,7 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Intermission","folderPath":"folders/Objects/Intermission.yy","name":"Intermission","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,12 +35,17 @@
   },
   "name":"TimeTooSCRUM",
   "resources":[
+    {"id":{"name":"obj_GameSpeed","path":"objects/obj_GameSpeed/obj_GameSpeed.yy",},},
+    {"id":{"name":"obj_Instructions","path":"objects/obj_Instructions/obj_Instructions.yy",},},
+    {"id":{"name":"obj_Lives","path":"objects/obj_Lives/obj_Lives.yy",},},
+    {"id":{"name":"rm_Intermission","path":"rooms/rm_Intermission/rm_Intermission.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Intermission","path":"rooms/rm_Intermission/rm_Intermission.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
