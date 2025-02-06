@@ -1,0 +1,1 @@
+image_index = round((obj_game_controller.alarm[1]*6)/obj_game_controller.timer)
