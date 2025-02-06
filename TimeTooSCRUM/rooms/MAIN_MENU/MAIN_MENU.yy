@@ -21,8 +21,8 @@
   ],
   "name":"MAIN_MENU",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Particle Systems/Rooms.yy",
+    "name":"TimeTooSCRUM",
+    "path":"TimeTooSCRUM.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{
