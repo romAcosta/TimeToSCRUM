@@ -7,12 +7,17 @@
   ],
   "managed":true,
   "name":"StartButton",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"button_controller","path":"objects/button_controller/button_controller.yy",},"propertyId":{"name":"button_text","path":"objects/button_controller/button_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Start",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"button_controller",
+    "path":"objects/button_controller/button_controller.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"spr_button",
+    "path":"sprites/spr_button/spr_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
