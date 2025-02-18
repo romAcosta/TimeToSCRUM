@@ -3,6 +3,7 @@
   "%Name":"obj_life",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_life",
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_life",
-    "path":"sprites/spr_life/spr_life.yy",
+    "name":"spr_life_interlude",
+    "path":"sprites/spr_life_interlude/spr_life_interlude.yy",
   },
   "spriteMaskId":null,
   "visible":true,

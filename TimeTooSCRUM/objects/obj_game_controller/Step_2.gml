@@ -1,5 +1,5 @@
 if(win){
 	
-	ChangeRoom()
-	win = false
+	//ChangeRoom()
+	//win = false
 }

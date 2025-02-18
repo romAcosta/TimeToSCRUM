@@ -1,4 +1,9 @@
 if(gamestate == Game_States.LIFELOSS){
-	gamestate = Game_States.LEVEL
-	ChangeRoom()
+	if(player_lives > 0){
+		gamestate = Game_States.LEVEL
+		ChangeRoom()
+	}else{
+		gamestate = Game_States.GAMEOVER
+		room_goto(asset_get_index("GameOver"))
+	}
 }

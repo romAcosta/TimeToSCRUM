@@ -1,0 +1,1 @@
+if(sprite_index == spr_llama_enter) obj_life.visible = false
