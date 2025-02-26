@@ -1,4 +1,4 @@
-games = ["rm_doom_scroll","rm_Caff"]
+games = ["rm_doom_scroll","rm_Caff","rm_Commit","rm_Debug","rm_nothing","rm_unit_test","rm_resume_tinder"]
 range = array_length(games)
 player_lives = 3
 gamestate = Game_States.START
@@ -8,14 +8,14 @@ countdown = false;
 modifier = 1
 win = false
 timer = 200
-loss_timer = 50
-in_timer = 140
-
+in_timer = 150
+fullscreen = false
+player_score = 0
 randomize()
 
 function GetRoom(){
 	randomize()
-	return games[random_range(-1,range)]
+	return games[random_range(0,range)]
 }
 
 function ChangeRoom(){
@@ -25,7 +25,20 @@ function ChangeRoom(){
 	alarm[2] = in_timer
 }
 
-function GoWin(){
-	win = true
-	did_win = true
+function LevelEnd(){
+	
+	if(!win){
+		player_lives--
+		gamestate = Game_States.LIFELOSS
+		room_goto(asset_get_index("rm_lives"))
+	}else{
+		player_score++
+		did_win = true
+		win = false
+		ChangeRoom()
+	}
+	
+	
+	
+	
 }

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_timer",
-    "path":"sprites/spr_timer/spr_timer.yy",
+    "name":"spr_timer_bomb",
+    "path":"sprites/spr_timer_bomb/spr_timer_bomb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

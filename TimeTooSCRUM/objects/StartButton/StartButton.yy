@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"button_controller","path":"objects/button_controller/button_controller.yy",},"propertyId":{"name":"button_text","path":"objects/button_controller/button_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Start",},
   ],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"button_controller",

@@ -1,0 +1,1 @@
+draw_text(580,500,"Score: " + obj_game_controller.player_score)

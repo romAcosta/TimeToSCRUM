@@ -3,6 +3,6 @@ if(gamestate == Game_States.LEVEL ){
 }
 
 if(gamestate == Game_States.LIFELOSS ){
-	alarm[0] = loss_timer * modifier
+	alarm[0] = 100
 }
 

@@ -9,8 +9,8 @@
   "name":"obj_CaffGame",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Caffinate",
+    "path":"folders/Objects/Caffinate.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_CaffObjective",
-    "path":"sprites/spr_CaffObjective/spr_CaffObjective.yy",
+    "name":"spr_Arm",
+    "path":"sprites/spr_Arm/spr_Arm.yy",
   },
   "spriteMaskId":null,
   "visible":true,

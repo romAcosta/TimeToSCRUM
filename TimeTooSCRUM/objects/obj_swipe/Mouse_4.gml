@@ -1,0 +1,1 @@
+swipe_start = mouse_x;
